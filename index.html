@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <h2 class="logo"> Logo</h2>
+        <div class="navigation">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+        </div>
+        <button id="login-btn">Login</button>
+        <div class="hamburger" id="hamburger" onclick="onClickMenu()">
+            <span class="bar" id="bar3"></span>
+            <span class="bar" id="bar2"></span>
+            <span class="bar" id="bar3"></span>
+        </div> 
+    </header>
+    <section id="total">
+ <div class="page1" id="page1">
+    <h1>ADVENTURE</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa <br>suscipit provident velit omnis hic minima, dicta soluta unde vero beatae <br>temporibus optio alias, ad voluptates, consequatur ratione iure <br>quis doloribus aperiam explicabo quod. Repudiandae, sed.</p>
+    <button>LEARN MORE</button>
+ </div>
+  <section id="main">
+    <div class="wrapper">
+        <div class="space-icon">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+    <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="text" required>
+                <label>Email</label>
+            </div>
+                <div class="input-box">
+                    <span class="icon" id="lock"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required id="password">
+                    <label>Password</label>
+            </div>
+            <div class="remember-forget">
+               <label><input type="checkbox">
+                Remember me</label> 
+                <a href="#">Forget Password?</a>
+            </div>
+            <button type="submit" class="btn">Login
+            </button>
+<div class="login-register">
+    <p>Don't have an account?
+        <a href="#" class="register-link">Register</a>
+    </p>
+</div>
+        </form>
+    </div>
+
+    <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon" ><ion-icon name="mail"></ion-icon></span>
+                <input type="text" required>
+                <label>Email</label>
+            </div>
+                <div class="input-box">
+                    <span class="icon" id="lock2"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="password2" required>
+                    <label>Password</label>
+            </div>
+            <div class="remember-forget">
+               <label><input type="checkbox">
+               agree to the term & conditions</label> 
+            </div>
+            <button type="submit" class="btn">Register
+            </button>
+<div class="login-register">
+    <p>Already have an account?
+        <a href="#" class="login-link">Login</a>
+    </p>
+</div>
+        </form>
+    </div>
+</div>
+</section>
+</section>
+
+ <script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
